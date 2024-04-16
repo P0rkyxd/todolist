@@ -4,7 +4,7 @@ import TodoWrapper from './components/todowrapper'; // Corrected import statemen
 function App() {
   return (
     <div className='App'>
-      <TodoWrapper /> {/* Corrected component name */}
+      <TodoWrapper /> 
     </div>
   );
 }
