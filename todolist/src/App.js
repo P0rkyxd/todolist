@@ -1,10 +1,10 @@
 import './App.scss';
-import TodoWrapper from './components/todowrapper'; // Corrected import statement
+import { TodoWrapper } from './components/TodoWrapper';
 
 function App() {
   return (
-    <div className='App'>
-      <TodoWrapper /> 
+    <div className="App">
+      <TodoWrapper  />
     </div>
   );
 }
